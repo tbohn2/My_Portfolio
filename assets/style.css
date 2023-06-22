@@ -1,0 +1,19 @@
+:root {
+    --green: rgb(0, 68, 0);
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), var(--green));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    font-size: 180%;
+}
+
+#name {
+    font-size: 800%;
+    text-shadow: 7px 7px var(--green);
+}
