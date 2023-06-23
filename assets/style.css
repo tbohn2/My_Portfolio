@@ -3,6 +3,10 @@
     height: 100vh;
 }
 
+nav {
+    height: 15vh;
+}
+
 body {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), var(--green));
     background-repeat: no-repeat;
@@ -16,4 +20,8 @@ body {
 #name {
     font-size: 800%;
     text-shadow: 7px 7px var(--green);
+}
+
+#homebody {
+    height: 85vh
 }
